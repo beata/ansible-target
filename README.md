@@ -1,4 +1,4 @@
-DockerFile of ansible target machine with dependent tools pre-installed.
+Dockerfile of ansible target machine with dependent tools pre-installed.
 
 # Build
 
