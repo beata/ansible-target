@@ -10,14 +10,17 @@ A docker image for ansible target machine with dependent tools pre-installed.
 - docker-compose exmaple:
 
     - Setup `docker-compose.yml`
-
-          db:
-            container_name: db
-            restart: always
-            image: beatada/ansible:trusty
-            expose:
-              - "3306"
+    
+      ```
+      db:
+        container_name: db
+        restart: always
+        image: beatada/ansible:trusty
+        expose:
+          - "3306"
+      ```
 
     - Create the container
-
-          $ docker-compose up -d db
+      ```
+      $ docker-compose up -d db
+      ```
